@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <style>
+       body {
+            margin: 0;
+             padding: 0;
+             background-color: rgb(0, 183, 255);
+        }
+
+        .calculate {
+            width: 800px;
+            height: 300px;
+            background-color: rgb(64, 238, 142);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 5px 80px 5px 80px;
+            box-shadow: 5px 5px 10px #2c2b2b;
+            text-align: center;
+            padding: 20px 0px;
+            justify-self: center;
+        }
+        
+    </style>
+   
+</head>
+<body>
+
+  <div class="calculate">
+    <div id="press">
+    <h1>: <span id="time">60</span>sec</h1>
+    <h1 id="header"></h1>
+
+    <button id="start" class="btn">Start</button>
+    <button id="reset" class="btn">Reset</button>
+
+    </div>
+  
+  </div>
+   
+
+    <script>
+         
+        // var start = document.getElementById('start');
+        // var reset = document.getElementById('reset');
+
+        
+
+        
+     
+
+      //  function stopTimer(){
+      //   clearInterval(startTimer);
+      //  }
+    
+       start.addEventListener('click', function(){
+           function startInterval(){
+            startTimer = setInterval(function(){
+              timer();
+            }, 1000);
+           } 
+           
+           var timer = 60
+          var xyz = setInterval(()=>{
+          document.getElementById('time').innerHTML = --timer;
+          if( timer==0){
+            clearInterval(xyz)
+          }},1000);
+
+
+          setInterval(()=>{
+          var randText = Math.floor(Math.random()*colors.length)
+         document.getElementById('header').innerHTML = colors[randText];
+          },1000)
+
+         var colors = ['Lagos','Ogun','Benin','Delta','Abuja','Kaduna', 'Port Harcourt' , 'Imo' ,'Enugu']
+          document.getElementById('header').innerHTML[0]
+    
+
+          // let color = '#';
+          //  color += Math.random().toString(16).slice(2,8);
+          //  header.style.backgroundColor = color;
+          // console.log(color)
+  
+       })
+
+
+       reset.addEventListener('click', function(){
+        location.reload()
+       })
+
+    </script>
+</body>
+</html>

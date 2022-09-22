@@ -1,0 +1,442 @@
+.home-header {
+    background-image: url(image/ross-parmly-rf6ywHVkrlY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .banner-text {
+    font-size: 36px;
+    padding-left: 4%;
+    padding-top: 200px; 
+    padding-bottom: 90px;
+  }
+
+  .banner-text:hover  .nav-text  {
+    transform: translateY(10%);
+  }
+
+  .navbar-section {
+    width: 550px;
+    height: 40px;
+    /* background-color: aquamarine; */
+    display: flex;
+    margin-left: 500px;
+    justify-content: space-between;
+    justify-items: center;
+  }
+  
+
+  /* .nav-button {
+        width: 100px;
+        height: 40px;
+        background-color:  #fff;
+        color: rgb(105, 103, 103);
+        border-radius: 5px;
+        border-width: 1px;
+        font-size: large;
+        font-weight: 500;
+        border-color:  rgb(105, 103, 103);
+  } */
+
+  .nav-text {
+    width: 500px;
+    height: 300px;
+    transition: transform 1s;
+    /* background-color: aquamarine; */
+    /* margin-left: 90px; */
+  }
+
+  .nav-p {
+    font-size: 12px;
+  }
+
+  .nav-buttons {
+    width: 300px;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-button1 {
+        width: 150px;
+        height: 50px;
+        background-color:  orange;
+        color: white;
+        border-radius: 10px;
+        font-size: large;
+        font-weight: 500;
+        border:  none;
+  }
+
+  .nav-button1:hover {
+    width: 150px;
+    height: 50px;
+    background-color:  whitesmoke;
+    color: orange;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 500;
+    border:  none;
+}
+
+  .nav-button2 {
+    width: 110px;
+    height: 50px;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10px;
+  }
+
+  .ajeb1 {
+    color: orangered;
+  }
+
+  .ajeb {
+    font-weight: 800;
+    font-size: larger;
+  }
+
+  .demo {
+    font-size: small;
+    padding-top: 10px;
+  }
+
+  .container-me {
+    padding: 0 1em;
+    max-width: 60rem;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+  }
+
+  .sec-header {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .sec-text {
+    font-weight: bolder;
+  }
+
+  .sec-box {
+    max-width: 50rem;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 2em;
+    /* border: 2px solid blue; */
+  }
+
+  .sec-card {
+    /* background-color: blueviolet; */
+    text-align: center;
+    padding: 20px;
+  }
+
+ /* .sec-card:hover {
+   width: 600px;
+   height: 250px;
+   background-color: whitesmoke;
+   transition: transform 1s;
+   border-radius: 10px;
+   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+ } */
+
+  .sec-icon {
+    font-size: 50px;
+  }
+
+  .innertest {
+    margin-top: 20px;
+  }
+
+  .sec-box1 {
+    max-width: 50rem;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 2em;
+    /* border: 2px solid blue; */
+    margin-top: 100px;
+  }
+
+  .city-box {
+    width: 200px;
+    min-height: 300px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .city {
+   max-width: 20rem;
+   min-height: 12rem;
+   /* background-color: blueviolet; */
+   background-image: url(image/michael-discenza-5omwAMDxmkU-unsplash.jpg);
+   background-position: center;
+   background-size: cover;
+   border-radius: 20px 20px 0px 0px;
+  }
+
+  .city1 {
+    max-width: 20rem;
+    min-height: 12rem;
+    /* background-color: blueviolet; */
+    background-image: url(image/tom-podmore-1zkHXas1GIo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+   }
+
+   .city2 {
+    max-width: 20rem;
+    min-height: 12rem;
+    /* background-color: blueviolet; */
+    background-image: url(image/tom-podmore-3mEK924ZuTs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+   }
+
+  .city-text {
+    max-width: 20rem;
+    min-height: 1rem;
+    /* background-color: peru; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .city-trip {
+    max-width: 7rem;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+.book-sec {
+  max-width: 30rem;
+  min-height: 30rem;
+   /* border: 2px solid blue; */
+}
+
+.book-box {
+  max-width: 30rem;
+  min-height: 5rem;
+  /* border: 2px solid greenyellow; */
+  display: flex;
+ gap: 1em;
+ margin-top: 30px;
+}
+
+.book-img {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 238, 0);
+  border-radius: 10px;
+}
+
+.book-img1 {
+  width: 40px;
+  height: 40px;
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+.book-img2 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(0, 102, 255);
+  border-radius: 10px;
+}
+
+.book-card {
+  width: 220px;
+  height: 320px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-top: 100px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card-img {
+  width: 220px;
+  height: 150px;
+  /* background-color: green; */
+  background-image: url(image/nupo-deyon-daniel-67ruAEYmp4c-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-icon {
+  color: black;
+}
+
+.book-sec1 {
+  max-width: 15rem;
+  min-height: 15rem;
+   /* border: 2px solid blue; */
+}
+
+.testmony {
+  width: 500px;
+  min-height: 50px;
+  /* background-color: aquamarine; */
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.testmony-dp {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background-image: url(image/christopher-campbell-rDEOVtE7vOs-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 100px;
+}
+
+.brands {
+  font-size: 100px;
+}
+
+.subscribe-sec {
+  max-width: 60rem;
+  min-height: 15rem;
+  background-color: whitesmoke;
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.row {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.digimon {
+  max-width: 200rem;
+  /* background-color: red; */
+  display: flex;
+  margin-top: 100px;
+  gap: 4rem;
+}
+
+
+
+
+  @media all and (max-width: 500px) {
+    .banner-text {
+      font-size: 20px;
+      /* padding-right: 50%; */
+      padding-top: 100px; 
+      padding-bottom: 100px;
+    }
+
+    .nav-text {
+        width: 360px;
+        height: 250px;
+        margin: 0 auto;
+        /* background-color: aquamarine; */
+        /* text-align: center;  */
+      }
+
+      .ajeb {
+        font-weight: 900;
+        font-size: x-large;
+        text-align: center;
+      }
+
+      .ajeb1 {
+        color: orangered;
+        text-align: center;
+      }
+
+      .nav-p {
+        font-size: 12px;
+      }
+
+      .nav-buttons {
+        width: 250px;
+        height: 50px;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+      }
+
+      .nav-button1 {
+        width: 100px;
+        height: 40px;
+        background-color:  orange;
+        color: white;
+        border-radius: 10px;
+        font-size: small;
+        font-weight: 400;
+        border:  none;
+  }
+
+      .nav-button2 {
+        width: 90px;
+        height: 40px;
+        /* background-color: blueviolet; */
+        justify-content: space-between;
+        display: flex;
+        padding-top: 10px;
+  }
+
+  .demo {
+    font-size: small;
+    padding-top: 5px;
+  }
+
+  .sec-box {
+    /* background-color: aquamarine; */
+    display: block;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 50px;
+  }
+  
+  .brands {
+    font-size: 40px;
+  }
+
+  .ro {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .contacte {
+    font-size: 10px ;
+  }
+
+  .contact1 {
+    font-size: 12px;
+  }
+
+  .digimon {
+    gap: 2rem;
+  }
+ 
+  }

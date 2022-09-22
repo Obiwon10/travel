@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Timer: <span id="time">60</span>sec</h1>
+
+     <h1 id="header"></h1>
+
+    <script>
+        var timer = 60
+          var xyz = setInterval(()=>{
+          document.getElementById('time').innerHTML = --timer;
+          if( timer==0){
+            clearInterval(xyz)
+          }},1000);
+
+
+       var x = 21 + Math.floor( Math.random() * 10);
+      document.write(x);
+
+    //   setInterval(() => {
+    //     document.write('this is working' + "<br>")
+    //   }, 2000);
+
+
+    // solution
+    // 1. time you want it to display
+    // 2. display at random
+    // 3. display is an html (dom)
+
+    setInterval(()=>{
+      var randText = Math.floor(Math.random()*colors.length)
+         document.getElementById('header').innerHTML = colors[randText]
+    },2000)
+    var colors = ['blue','black','grey','gold','red','green']
+    document.getElementById('header').innerHTML[0]
+     
+    header.addEventListener('click',() => content.style.backgroundColor = 'blue','green')
+        
+    </script>
+</body>
+</html>
